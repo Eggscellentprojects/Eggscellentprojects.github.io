@@ -2,6 +2,7 @@ body{
     background-color: grey;
 }
 h1{
-    color: white;
+    text-align: center;
+    color: rgb(235, 235, 235);
     font-family: Calibri;
 }
