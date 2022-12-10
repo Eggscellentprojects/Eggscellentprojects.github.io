@@ -9,6 +9,8 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+    <audio id="kritterHurt"><source src="./media/owie.ogg"></audio>
+
     <div>
         <div>
             <h1>Eggscellent</h1>
@@ -20,6 +22,10 @@
             <p> <a href="https://steamcommunity.com/id/dudewholivesinarock/">Steam</a></p>
             <p> <a href="https://www.twitch.tv/nyc_eggscellent">Twitch</a></p>
         </div>
+    </div>
+
+    <div id="kritter">
+        <img id="kritterClick" onclick="kritterHurt()" src="./images/kritter1.png" alt="Kritter goes here">
     </div>
 
 </body>
