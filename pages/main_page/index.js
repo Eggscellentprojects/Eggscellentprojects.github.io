@@ -11,10 +11,10 @@ const kritterHurt = () =>
 // Change the kritter sprite when you move your mouse over to said sprite
 kritter.addEventListener('mouseover', () =>
 {
-    kritter.src = "./images/kritter2.png";
+    kritter.src = "./../../media/images/kritter2.png";
 })
 // Change the kritter back to its original sprite
 kritter.addEventListener('mouseout', () =>
 {
-    kritter.src = "./images/kritter1.png";
+    kritter.src = "./../../media/images/kritter1.png";
 })
