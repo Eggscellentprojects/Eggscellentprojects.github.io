@@ -1,0 +1,40 @@
+/* Bootstrap CSS */
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.container{
+    background-color: black;
+    color: white;
+}
+
+
+/* Other CSS */
+body{
+    /* background color */
+    padding: 0;
+    background-color: hsl(280, 65%, 60%);
+}
+
+h1{
+    text-align: center;
+    color: rgb(235, 235, 235);
+    font-family: Calibri;
+}
+p{
+    text-align: center;
+}
+
+#kritter{
+    text-align: center;
+    padding: 100px;
+}
+#socials{
+    background-color: #b8611a;
+    padding: 5px;
+}
