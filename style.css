@@ -2,7 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: hsl(289, 53%, 45%);
+    background-color: hsl(289, 54%, 52%);
 }
 
 .navbar_container{
@@ -16,7 +16,7 @@ body{
 }
 
 .navbar_name{
-    color: #fff;
+    color: white;
     font-size: 32px;
     margin: 0px;
     padding-left: 1em;
@@ -29,9 +29,22 @@ p.navbar_name{
     text-align: center;
 }
 
+.card_wrap{
+    background: hsl(55, 93%, 84%);
+    border-radius: 5px;
+    height: auto;
+    text-align: center;
+    margin: 7em 3em 0;
+    width: auto;
+}
+
+.card_name{
+    
+}
+
 h1{
     text-align: center;
-    color: rgb(235, 235, 235);
+    color: black;
     font-family: Calibri;
 }
 
