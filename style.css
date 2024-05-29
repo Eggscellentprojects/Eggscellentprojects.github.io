@@ -68,3 +68,9 @@ h1{
     background-color: #b8611a;
     padding: 5px;
 }
+
+/* The GOAT's CSS */
+.funny_goat{
+    display: flex;
+    flex-direction: row-reverse;
+}
