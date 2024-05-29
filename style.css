@@ -5,6 +5,7 @@ body{
     background-color: hsl(289, 54%, 52%);
 }
 
+/* navbar CSS */
 .navbar_container{
     background-color: 	hsl(0, 0%, 15%);
     color: white;
@@ -29,6 +30,7 @@ p.navbar_name{
     text-align: center;
 }
 
+/* Title card CSS */
 .card_wrap{
     background: hsl(55, 93%, 84%);
     border-radius: 5px;
@@ -42,8 +44,14 @@ p.navbar_name{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border-bottom-style: solid;
     padding: 25px 0 25px 0;
+}
+
+.card_text{
+    margin: 0 auto;
+    width: 30em;
+    padding: 3em;
+    border-top-style: solid;
 }
 
 h1{

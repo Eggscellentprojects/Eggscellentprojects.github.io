@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    
     <!-- External CSS -->
     <link rel="stylesheet" href="./style.css">
 
@@ -17,28 +18,30 @@
 <body>
     <audio id="kritterHurt"><source src="./../../media/sound/owie.ogg"></audio>
 
+    <!-- Navbar -->
     <div class="navbar_container">
       <div class="navbar_name">
         <p class="navbar_name">eggscellent</p>
       </div>
     </div>
 
+    <!-- Title Card -->
     <div class="card_container">
       <div class="card_wrap">
         <div class="card_name">
           <img src="" alt="pic go here">
           <h1>eggscellent</h1>
         </div>
-        <div class="card_content">
-          <p>Content goes here</p>
+        <div class="card_text">
+          <h1>Still a work in progress...</h1>
+          <p>You can view my GitHub page <a href="https://github.com/Eggscellentprojects" target="_blank" rel="noreferrer">here</a></p>
         </div>
       </div>
     </div>
 
+    <!-- Kritter -->
     <div id="kritter">
-        <h1>Still a work in progress...</h1>
-        <p>You can view my GitHub page <a href="https://github.com/Eggscellentprojects" target="_blank" rel="noreferrer">here</a></p>
-        <img id="kritterClick" onclick="kritterHurt()" src="./../../media/images/kritter1.png" alt="Kritter goes here">
+      <img id="kritterClick" onclick="kritterHurt()" src="./../../media/images/kritter1.png" alt="Kritter goes here">
     </div>
 
 </body>
