@@ -2,7 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: hsl(289, 54%, 52%);
+    background-color: hsl(300, 47%, 40%);
 }
 
 /* navbar CSS */
@@ -36,11 +36,18 @@ p.navbar_name{
     border-radius: 5px;
     height: auto;
     text-align: center;
-    margin: 7em 3em 0;
-    width: auto;
+    margin: 7em auto 0;
+    width: 1150px;
 }
 
 .card_name{
+    border-bottom-style: solid;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    padding-top: 50px;
+    width: 1000px;
+}
+.card_name_wrap{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -51,13 +58,20 @@ p.navbar_name{
     margin: 0 auto;
     width: 30em;
     padding: 3em;
-    border-top-style: solid;
+    font-family: Segoe UI;
+}
+
+/* Socials Icons */
+.socials{
+    padding: 20px 0 20px 0;
+    font-family: Segoe UI;
 }
 
 h1{
     text-align: center;
     color: black;
-    font-family: Calibri;
+    font-family: Segoe UI;
+    font-size: 100px
 }
 
 #kritter{
