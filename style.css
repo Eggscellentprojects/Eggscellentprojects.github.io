@@ -56,7 +56,6 @@ p.navbar_name{
 
 .card_text{
     margin: 0 auto;
-    width: 30em;
     padding: 3em;
     font-family: Segoe UI;
 }
@@ -87,4 +86,42 @@ h1{
 .funny_goat{
     display: flex;
     flex-direction: row-reverse;
+}
+
+/* Media Queries */
+/* When the screen is less than 920px in width */
+@media (max-width: 920px) {
+    /* Adjust the orientation of the card and the content*/
+    .card_wrap {
+        width: 400px;
+    }
+
+    .card_name_wrap {
+        flex-direction: column;
+    }
+
+    .card_name {
+        width: 300px
+    }
+
+    #site_image {
+        
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 55px;
+    }
+
+    .card_text {
+        padding: 10px;
+    }
+
+    .socials{
+        padding: 20px;
+    }
+
+    #socials_icon {
+        width: 25%;
+    }
 }
